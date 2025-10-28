@@ -1,1 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "SEO Spotlight",
+  "version": "0.1.0",
+  "description": "Highlight on-page SEO stats and issues in a Helium-10 style sidebar.",
+  "action": { "default_title": "SEO Spotlight" },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": { "service_worker": "service_worker.js" },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
 
